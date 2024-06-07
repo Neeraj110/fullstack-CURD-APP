@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .Cover-Image{
+        margin: 5rem 4rem;
+    }
+}
+

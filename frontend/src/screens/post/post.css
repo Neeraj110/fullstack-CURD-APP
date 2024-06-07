@@ -1,0 +1,24 @@
+@media (max-width:786px) {
+    .Result {
+        margin: 5rem 1rem !important;
+    }
+
+    .FollowBtn{
+        padding: 1vw 3vw;
+    }
+}
+@media (max-width:400px) {
+    .Result {
+        margin: 5rem 0 !important;
+    }
+
+    .avatar{
+        width: 2rem;
+        height: 2rem;
+
+    }
+}
+
+.avatar{
+    border: 1.5px solid gray;
+}

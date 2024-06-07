@@ -1,0 +1,126 @@
+@media (max-width:694px) {
+
+    .Profile {
+        margin-top: 4rem;
+        height: auto;
+    }
+
+    .Avatar {
+        position: absolute;
+        top: 15.5rem;
+        margin-left: .5rem;
+        width: 5rem;
+
+    }
+
+    .Pen {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100%;
+        display: grid;
+        place-content: center;
+        left: 4rem;
+        bottom: 2rem;
+    }
+
+    .Info {
+        margin-top: 3rem;
+        text-align: left;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Edit-btn {
+        /* position: absolute; */
+        /* right: 5%; */
+        background-color: black;
+        border: 1px solid white;
+        /* bottom: 0; */
+        padding: 1vw 0.5rem;
+        margin-right: 4vw;
+    }
+
+    .Bio {
+        padding: 0 1rem;
+        margin: 3vw 0;
+    }
+
+    .Bio-area {
+        padding: 0 2vw;
+
+    }
+
+    .Joined {
+        display: flex;
+        align-items: center;
+        padding: 0 1.2rem;
+
+    }
+
+    .Follow {
+        display: flex;
+        gap: 1rem;
+        padding: 0.8rem 1.3rem;
+    }
+}
+
+@media (min-width:700px) {
+    .Profile {
+        border: 1px solid gray;
+        margin: 2rem 4rem;
+        margin-top: 6rem;
+        border-radius: 1rem;
+    }
+
+
+    .Avatar {
+        position: absolute;
+        top: 18rem;
+        margin-left: .5rem;
+        width: 5rem;
+    }
+
+    .Pen {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100%;
+        display: grid;
+        place-content: center;
+        left: 4rem;
+        bottom: 2rem;
+    }
+
+    .Info {
+        margin-top: 3rem;
+        text-align: left;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .Edit-btn {
+        background-color: black;
+        border: 1px solid white;
+        padding: 1vw 0.5rem;
+        margin-right: 4vw;
+        margin-bottom: 1vw;
+    }
+
+
+    .Joined {
+        display: flex;
+        align-items: center;
+    }
+
+    .Follow {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,24 @@
+.Header {
+    border-right: 1px solid gray;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+}
+
+/* In your index.css or a global CSS file */
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #3498db; /* Change this color to your preference */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
