@@ -87,7 +87,7 @@ const ProfilePage = () => {
               </div>
               <div className="Avatar">
                 <img
-                  src={userDetails?.avatar || ""}
+                  src={userDetails?.avatar}
                   alt="Avatar"
                   className="border-4 rounded-full w-20 h-20 object-cover border-gray-500"
                 />
